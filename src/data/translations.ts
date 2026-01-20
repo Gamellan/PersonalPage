@@ -2,12 +2,14 @@ export type Language = 'es' | 'en';
 
 export const translations = {
   en: {
-    about: 'About',
-    skills: 'Skills',
-    experience: 'Experience',
-    projects: 'Projects',
-    education: 'Education',
-    contact: 'Contact',
+    navLinks: {
+      about: 'About',
+      skills: 'Skills',
+      experience: 'Experience',
+      projects: 'Projects',
+      education: 'Education',
+      contact: 'Contact',
+    },
 
     hero: {
       seniority: 'Backend & Full-Stack · 8+ years',
@@ -30,7 +32,7 @@ export const translations = {
       contactSubtitle: 'Let\'s discuss your project',
     },
 
-    contact: {
+    contactSection: {
       email: 'Email',
       phone: 'Phone',
       location: 'Location',
@@ -50,7 +52,7 @@ export const translations = {
         'Contribute to innovative teams solving real problems with clear and maintainable code, backed by data and best practices.',
     },
 
-    skills: {
+    skillsCategories: {
       backend: 'Backend',
       frontend: 'Frontend',
       dataCloud: 'Data & Cloud',
@@ -94,7 +96,7 @@ export const translations = {
       },
     ],
 
-    projects: [
+    projectsList: [
       {
         name: 'Legacy to Python/Django Migration',
         description:
@@ -115,7 +117,7 @@ export const translations = {
       },
     ],
 
-    education: [
+    educationList: [
       {
         title: 'Technical Specialist in Multiplatform Application Development',
         place: 'Centro de estudios San Román, Madrid',
@@ -140,12 +142,14 @@ export const translations = {
   },
 
   es: {
-    about: 'Sobre mí',
-    skills: 'Habilidades',
-    experience: 'Experiencia',
-    projects: 'Proyectos',
-    education: 'Formación',
-    contact: 'Contacto',
+    navLinks: {
+      about: 'Sobre mí',
+      skills: 'Habilidades',
+      experience: 'Experiencia',
+      projects: 'Proyectos',
+      education: 'Formación',
+      contact: 'Contacto',
+    },
 
     hero: {
       seniority: 'Backend & Full-Stack · 8+ años',
@@ -168,7 +172,7 @@ export const translations = {
       contactSubtitle: 'Hablemos de tu proyecto',
     },
 
-    contact: {
+    contactSection: {
       email: 'Correo',
       phone: 'Teléfono',
       location: 'Ubicación',
@@ -188,7 +192,7 @@ export const translations = {
         'Contribuir en equipos innovadores resolviendo problemas reales con código claro y mantenible, apoyado en datos y buenas prácticas.',
     },
 
-    skills: {
+    skillsCategories: {
       backend: 'Backend',
       frontend: 'Frontend',
       dataCloud: 'Datos y cloud',
@@ -232,7 +236,7 @@ export const translations = {
       },
     ],
 
-    projects: [
+    projectsList: [
       {
         name: 'Migración legacy a Python/Django',
         description:
@@ -253,7 +257,7 @@ export const translations = {
       },
     ],
 
-    education: [
+    educationList: [
       {
         title: 'Técnico Superior en Desarrollo de Aplicaciones Multiplataforma',
         place: 'Centro de estudios San Román, Madrid',

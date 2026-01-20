@@ -57,23 +57,23 @@ function Skills() {
 
   const skillsData = [
     {
-      category: t.skills.backend,
+      category: t.skillsCategories.backend,
       items: ['Node.js', 'Python', 'Java', 'C#', 'REST APIs', 'Django', 'Express', 'Spring'],
     },
     {
-      category: t.skills.frontend,
+      category: t.skillsCategories.frontend,
       items: ['React', 'TypeScript', 'JavaScript', 'Vite', 'HTML/CSS', 'Knockout'],
     },
     {
-      category: t.skills.dataCloud,
+      category: t.skillsCategories.dataCloud,
       items: ['SQL Server', 'MySQL', 'PostgreSQL', 'MariaDB', 'AWS', 'Azure'],
     },
     {
-      category: t.skills.practices,
+      category: t.skillsCategories.practices,
       items: ['Agile / Scrum', 'CI/CD basics', 'BPO Integration', 'Voice Automation'],
     },
     {
-      category: t.skills.tools,
+      category: t.skillsCategories.tools,
       items: ['Git', 'REST', 'APIs', 'pandas'],
     },
   ];
@@ -121,7 +121,7 @@ function Projects() {
 
   return (
     <div className="grid grid-3">
-      {t.projects.map((project, idx) => (
+      {t.projectsList.map((project, idx) => (
         <div key={idx} className="card project-card">
           <div className="project-title">{project.name}</div>
           <div className="project-meta">{project.description}</div>
@@ -137,7 +137,7 @@ function Education() {
 
   return (
     <div className="grid grid-2">
-      {t.education.map((item, idx) => (
+      {t.educationList.map((item, idx) => (
         <div key={idx} className="card">
           <div className="project-title">{item.title}</div>
           <div className="project-meta">{item.place}</div>
@@ -154,24 +154,24 @@ function Contact() {
   return (
     <div className="contact-grid">
       <div className="contact-item">
-        <div className="project-title">{t.contact.email}</div>
+        <div className="project-title">{t.contactSection.email}</div>
         <a href={`mailto:${profile.email}`} className="section-subtitle">
           {profile.email}
         </a>
       </div>
       <div className="contact-item">
-        <div className="project-title">{t.contact.phone}</div>
+        <div className="project-title">{t.contactSection.phone}</div>
         <a href={`tel:${profile.phone}`} className="section-subtitle">
           {profile.phone}
         </a>
       </div>
       <div className="contact-item">
-        <div className="project-title">{t.contact.location}</div>
+        <div className="project-title">{t.contactSection.location}</div>
         <div className="section-subtitle">{t.profile.location}</div>
       </div>
       <div className="contact-item">
-        <div className="project-title">{t.contact.languages}</div>
-        <div className="section-subtitle">{t.contact.languagesValue}</div>
+        <div className="project-title">{t.contactSection.languages}</div>
+        <div className="section-subtitle">{t.contactSection.languagesValue}</div>
       </div>
     </div>
   );
@@ -222,11 +222,11 @@ export default function App() {
         <div className="container navbar">
           <div className="logo">{t.profile.name.split(' ')[0]}</div>
           <nav className="nav-links">
-            <a href="#about">{t.about}</a>
-            <a href="#skills">{t.skills}</a>
-            <a href="#experience">{t.experience}</a>
-            <a href="#projects">{t.projects}</a>
-            <a href="#contact">{t.contact}</a>
+            <a href="#about">{t.navLinks.about}</a>
+            <a href="#skills">{t.navLinks.skills}</a>
+            <a href="#experience">{t.navLinks.experience}</a>
+            <a href="#projects">{t.navLinks.projects}</a>
+            <a href="#contact">{t.navLinks.contact}</a>
           </nav>
           <LanguageSwitcher />
         </div>
