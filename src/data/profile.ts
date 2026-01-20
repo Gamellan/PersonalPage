@@ -27,16 +27,16 @@ export const profile = {
   location: 'Madrid, España',
   email: 'aregidorballesteros@gmail.com',
   phone: '+34 626 189 187',
-  photo: '/yo_3.jpeg',
+  photo: '/PersonalPage/yo_3.jpeg',
   summary:
     'Desarrollador de software con experiencia en backend y full-stack, especializado en modernizar sistemas legacy, construir APIs escalables y llevar soluciones a producción con calidad. Abierto a relocalización internacional y a aportar en equipos colaborativos.',
   objective:
     'Contribuir en equipos innovadores resolviendo problemas reales con código claro y mantenible, apoyado en datos y buenas prácticas.',
   socials: {
-    linkedin: 'https://www.linkedin.com/in/antonio-regidor',
+    linkedin: 'https://www.linkedin.com/in/antonio-regidor-ballesteros-09741b150/',
     github: 'https://github.com/Gamellan',
   },
-  cvLink: '/CV-Antonio-Regidor.pdf',
+  cvLink: '/PersonalPage/CV-Antonio-Regidor.pdf',
 };
 
 export const skills = [
