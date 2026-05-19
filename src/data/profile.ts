@@ -64,10 +64,23 @@ export const skills = [
 
 export const experiences: Experience[] = [
   {
+    role: 'Advanced Consultant',
+    company: 'Akkodis',
+    location: 'Madrid, España',
+    period: '2026 – Actualidad',
+    highlights: [
+      'Desarrollo de soluciones avanzadas mediante paquetes SSIS y aplicaciones en C#.',
+      'Diseño y optimización de procesos ETL sobre SQL Server.',
+      'Participación en la arquitectura y despliegue de soluciones en Azure.',
+      'Colaboración con equipos multidisciplinares para entregar proyectos de alto impacto.',
+    ],
+    stack: ['SSIS', 'C#', 'SQL Server', 'Azure'],
+  },
+  {
     role: 'Desarrollador de Software',
     company: 'Grupo Reacciona',
     location: 'Las Rozas, España',
-    period: '2025 – Actualidad',
+    period: '2025 – 01/2026',
     highlights: [
       'Migración de código legacy ASP.Net a Python y Django, modernizando servicios críticos.',
       'Automatización de procesos de datos con pandas y despliegues en AWS.',
