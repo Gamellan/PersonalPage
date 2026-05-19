@@ -1,0 +1,19 @@
+<svg width="400" height="500" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#14213D" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" rx="28" fill="#0f172a" />
+  <rect x="12" y="12" width="376" height="476" rx="24" fill="url(#g)" opacity="0.35" />
+  <circle cx="200" cy="170" r="90" fill="#0f172a" stroke="#5EEAD4" stroke-width="4" opacity="0.8" />
+  <circle cx="200" cy="160" r="75" fill="#0f172a" stroke="#5EEAD4" stroke-width="2" opacity="0.45" />
+  <rect x="85" y="270" width="230" height="140" rx="70" fill="#0f172a" stroke="#5EEAD4" stroke-width="3" opacity="0.7" />
+  <text x="200" y="200" fill="#e2e8f0" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="20" text-anchor="middle">
+    Foto pendiente
+  </text>
+  <text x="200" y="230" fill="#94a3b8" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="14" text-anchor="middle">
+    Sustituir por imagen real
+  </text>
+</svg>
